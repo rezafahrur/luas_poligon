@@ -62,7 +62,7 @@ func main() {
 			area = (koordinatX[elemen] * koordinatY[elemen+1]) - (koordinatX[elemen+1] * koordinatY[elemen])
 			totalArea += area
 		}
-		//convert ke float dan selalu positif
+		// selalu positif
 		totalArea = math.Abs(totalArea)
 		totalArea /= 2
 		fmt.Printf("\nAsumsi Titik Awal adalah Titik 1\nMaka Luas Bidang Ini adalah: %.2f\n", totalArea)
